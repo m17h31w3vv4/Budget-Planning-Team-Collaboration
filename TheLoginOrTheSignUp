@@ -1,0 +1,98 @@
+<html>
+
+<style>
+
+button:hover
+{
+    background-color: #66D202;
+    color: white
+}
+button
+{
+    background-color: #02AEFE;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formContainer {
+    background: #67b3ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+body 
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #02AEFE;
+    margin: 0;
+}
+
+p
+{
+    background: #5E9800;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
+}
+
+label
+{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+</style>
+
+<body>
+
+<div class="formContainer">
+  <h1>
+     GROUP 4 BUDGETING SOFTWARE
+  </h1>
+  <form action="connect.php" method="POST" onsubmit="done(event)">
+	<p>
+            <label for="name">Username/E-mail:</label>
+            <input type="text" id="name" name="name" required>
+	
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+	
+            <button type="submit" class="styledButton" >OPEN</button>
+	</p>
+    </form>
+</div>
+
+</body>
+
+</html>
