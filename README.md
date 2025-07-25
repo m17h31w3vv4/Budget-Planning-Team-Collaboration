@@ -1,4 +1,4 @@
-# Budget-Planning-Team-Collaboration
+# Budget-Tracker-Team-Collaboration
 This is a project that involves forming a Budget Planning System that enables users to Budget efficiently.
 Here's a well-organized and thoughtfully written **project description** for your **budget planning application**, incorporating all your requested features and clearly structuring the user and system components:
 
